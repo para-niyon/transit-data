@@ -1,10 +1,6 @@
 import swisseph as swe
 import json
-import os
 from datetime import datetime, timedelta
-from google.oauth2 import service_account
-from googleapiclient.discovery import build
-from googleapiclient.http import MediaFileUpload
 
 # 天体の定義
 PLANETS = {
@@ -101,44 +97,6 @@ def calculate_aspects(planets):
     
     return aspects
 
-def upload_to_drive(file_path, folder_id):
-    """Google Driveにファイルをアップロード"""
-    creds_json = os.environ.get('GOOGLE_CREDENTIALS')
-    creds_dict = json.loads(creds_json)
-    
-    creds = service_account.Credentials.from_service_account_info(
-        creds_dict,
-        scopes=['https://www.googleapis.com/auth/drive.file']
-    )
-    
-    service = build('drive', 'v3', credentials=creds)
-    
-    # 古いファイルを削除
-    results = service.files().list(
-        q=f"'{folder_id}' in parents and name contains 'transit_'",
-        fields="files(id, name)"
-    ).execute()
-    
-    for file in results.get('files', []):
-        service.files().delete(fileId=file['id']).execute()
-        print(f"Deleted: {file['name']}")
-    
-    # 新しいファイルをアップロード
-    file_metadata = {
-        'name': os.path.basename(file_path),
-        'parents': [folder_id]
-    }
-    
-    media = MediaFileUpload(file_path, mimetype='application/json')
-    
-    file = service.files().create(
-        body=file_metadata,
-        media_body=media,
-        fields='id'
-    ).execute()
-    
-    print(f"Uploaded: {os.path.basename(file_path)}")
-
 def main():
     # 今日の日付
     today = datetime.utcnow()
@@ -150,17 +108,13 @@ def main():
         transit = calculate_transit(date)
         all_transits.append(transit)
     
-    # JSONファイルとして保存
-    filename = f"transit_{today.strftime('%Y%m%d')}.json"
+    # JSONファイルとして保存（固定ファイル名）
+    filename = "transit_data.json"
     with open(filename, 'w', encoding='utf-8') as f:
         json.dump(all_transits, f, ensure_ascii=False, indent=2)
     
     print(f"Generated: {filename}")
-    
-    # Google Driveにアップロード
-    folder_id = os.environ.get('FOLDER_ID')
-    if folder_id:
-        upload_to_drive(filename, folder_id)
+    print(f"Date range: {all_transits[0]['date']} to {all_transits[-1]['date']}")
 
 if __name__ == '__main__':
     main()
