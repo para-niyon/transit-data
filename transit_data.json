@@ -1,179 +1,5 @@
 [
   {
-    "date": "2026-02-14",
-    "planets": {
-      "Sun": {
-        "longitude": 325.7974,
-        "sign": "水瓶座",
-        "degree": 25.8,
-        "retrograde": false,
-        "speed": 1.0108
-      },
-      "Moon": {
-        "longitude": 290.4912,
-        "sign": "山羊座",
-        "degree": 20.49,
-        "retrograde": false,
-        "speed": 12.3938
-      },
-      "Mercury": {
-        "longitude": 342.5267,
-        "sign": "魚座",
-        "degree": 12.53,
-        "retrograde": false,
-        "speed": 1.4929
-      },
-      "Venus": {
-        "longitude": 335.0976,
-        "sign": "魚座",
-        "degree": 5.1,
-        "retrograde": false,
-        "speed": 1.2519
-      },
-      "Mars": {
-        "longitude": 317.3234,
-        "sign": "水瓶座",
-        "degree": 17.32,
-        "retrograde": false,
-        "speed": 0.7868
-      },
-      "Jupiter": {
-        "longitude": 106.0683,
-        "sign": "蟹座",
-        "degree": 16.07,
-        "retrograde": true,
-        "speed": -0.0781
-      },
-      "Saturn": {
-        "longitude": 0.0542,
-        "sign": "牡羊座",
-        "degree": 0.05,
-        "retrograde": false,
-        "speed": 0.1104
-      },
-      "Uranus": {
-        "longitude": 57.5078,
-        "sign": "牡牛座",
-        "degree": 27.51,
-        "retrograde": false,
-        "speed": 0.0092
-      },
-      "Neptune": {
-        "longitude": 0.5463,
-        "sign": "牡羊座",
-        "degree": 0.55,
-        "retrograde": false,
-        "speed": 0.0324
-      },
-      "Pluto": {
-        "longitude": 304.1166,
-        "sign": "水瓶座",
-        "degree": 4.12,
-        "retrograde": false,
-        "speed": 0.0302
-      },
-      "NorthNode": {
-        "longitude": 339.8148,
-        "sign": "魚座",
-        "degree": 9.81,
-        "retrograde": true,
-        "speed": -0.0529
-      }
-    },
-    "aspects": [
-      {
-        "planet1": "Sun",
-        "planet2": "Uranus",
-        "aspect": "square",
-        "orb": 1.71
-      },
-      {
-        "planet1": "Moon",
-        "planet2": "Jupiter",
-        "aspect": "opposition",
-        "orb": 4.42
-      },
-      {
-        "planet1": "Moon",
-        "planet2": "Uranus",
-        "aspect": "trine",
-        "orb": 7.02
-      },
-      {
-        "planet1": "Mercury",
-        "planet2": "Venus",
-        "aspect": "conjunction",
-        "orb": 7.43
-      },
-      {
-        "planet1": "Mercury",
-        "planet2": "Jupiter",
-        "aspect": "trine",
-        "orb": 3.54
-      },
-      {
-        "planet1": "Mercury",
-        "planet2": "NorthNode",
-        "aspect": "conjunction",
-        "orb": 2.71
-      },
-      {
-        "planet1": "Venus",
-        "planet2": "Uranus",
-        "aspect": "square",
-        "orb": 7.59
-      },
-      {
-        "planet1": "Venus",
-        "planet2": "NorthNode",
-        "aspect": "conjunction",
-        "orb": 4.72
-      },
-      {
-        "planet1": "Jupiter",
-        "planet2": "NorthNode",
-        "aspect": "trine",
-        "orb": 6.25
-      },
-      {
-        "planet1": "Saturn",
-        "planet2": "Uranus",
-        "aspect": "sextile",
-        "orb": 2.55
-      },
-      {
-        "planet1": "Saturn",
-        "planet2": "Neptune",
-        "aspect": "conjunction",
-        "orb": 0.49
-      },
-      {
-        "planet1": "Saturn",
-        "planet2": "Pluto",
-        "aspect": "sextile",
-        "orb": 4.06
-      },
-      {
-        "planet1": "Uranus",
-        "planet2": "Neptune",
-        "aspect": "sextile",
-        "orb": 3.04
-      },
-      {
-        "planet1": "Uranus",
-        "planet2": "Pluto",
-        "aspect": "trine",
-        "orb": 6.61
-      },
-      {
-        "planet1": "Neptune",
-        "planet2": "Pluto",
-        "aspect": "sextile",
-        "orb": 3.57
-      }
-    ]
-  },
-  {
     "date": "2026-02-15",
     "planets": {
       "Sun": {
@@ -1244,6 +1070,186 @@
         "planet2": "Pluto",
         "aspect": "sextile",
         "orb": 3.55
+      }
+    ]
+  },
+  {
+    "date": "2026-02-21",
+    "planets": {
+      "Sun": {
+        "longitude": 332.8629,
+        "sign": "魚座",
+        "degree": 2.86,
+        "retrograde": false,
+        "speed": 1.0077
+      },
+      "Moon": {
+        "longitude": 23.2798,
+        "sign": "牡羊座",
+        "degree": 23.28,
+        "retrograde": false,
+        "speed": 13.9757
+      },
+      "Mercury": {
+        "longitude": 350.7166,
+        "sign": "魚座",
+        "degree": 20.72,
+        "retrograde": false,
+        "speed": 0.7556
+      },
+      "Venus": {
+        "longitude": 343.8531,
+        "sign": "魚座",
+        "degree": 13.85,
+        "retrograde": false,
+        "speed": 1.2496
+      },
+      "Mars": {
+        "longitude": 322.8344,
+        "sign": "水瓶座",
+        "degree": 22.83,
+        "retrograde": false,
+        "speed": 0.7877
+      },
+      "Jupiter": {
+        "longitude": 105.594,
+        "sign": "蟹座",
+        "degree": 15.59,
+        "retrograde": true,
+        "speed": -0.0571
+      },
+      "Saturn": {
+        "longitude": 0.8443,
+        "sign": "牡羊座",
+        "degree": 0.84,
+        "retrograde": false,
+        "speed": 0.1152
+      },
+      "Uranus": {
+        "longitude": 57.5936,
+        "sign": "牡牛座",
+        "degree": 27.59,
+        "retrograde": false,
+        "speed": 0.0153
+      },
+      "Neptune": {
+        "longitude": 0.78,
+        "sign": "牡羊座",
+        "degree": 0.78,
+        "retrograde": false,
+        "speed": 0.0343
+      },
+      "Pluto": {
+        "longitude": 304.3234,
+        "sign": "水瓶座",
+        "degree": 4.32,
+        "retrograde": false,
+        "speed": 0.0288
+      },
+      "NorthNode": {
+        "longitude": 339.444,
+        "sign": "魚座",
+        "degree": 9.44,
+        "retrograde": true,
+        "speed": -0.053
+      }
+    },
+    "aspects": [
+      {
+        "planet1": "Sun",
+        "planet2": "Uranus",
+        "aspect": "square",
+        "orb": 5.27
+      },
+      {
+        "planet1": "Sun",
+        "planet2": "NorthNode",
+        "aspect": "conjunction",
+        "orb": 6.58
+      },
+      {
+        "planet1": "Moon",
+        "planet2": "Mars",
+        "aspect": "sextile",
+        "orb": 0.45
+      },
+      {
+        "planet1": "Moon",
+        "planet2": "Jupiter",
+        "aspect": "square",
+        "orb": 7.69
+      },
+      {
+        "planet1": "Mercury",
+        "planet2": "Venus",
+        "aspect": "conjunction",
+        "orb": 6.86
+      },
+      {
+        "planet1": "Mercury",
+        "planet2": "Jupiter",
+        "aspect": "trine",
+        "orb": 5.12
+      },
+      {
+        "planet1": "Venus",
+        "planet2": "Jupiter",
+        "aspect": "trine",
+        "orb": 1.74
+      },
+      {
+        "planet1": "Venus",
+        "planet2": "NorthNode",
+        "aspect": "conjunction",
+        "orb": 4.41
+      },
+      {
+        "planet1": "Mars",
+        "planet2": "Uranus",
+        "aspect": "square",
+        "orb": 4.76
+      },
+      {
+        "planet1": "Jupiter",
+        "planet2": "NorthNode",
+        "aspect": "trine",
+        "orb": 6.15
+      },
+      {
+        "planet1": "Saturn",
+        "planet2": "Uranus",
+        "aspect": "sextile",
+        "orb": 3.25
+      },
+      {
+        "planet1": "Saturn",
+        "planet2": "Neptune",
+        "aspect": "conjunction",
+        "orb": 0.06
+      },
+      {
+        "planet1": "Saturn",
+        "planet2": "Pluto",
+        "aspect": "sextile",
+        "orb": 3.48
+      },
+      {
+        "planet1": "Uranus",
+        "planet2": "Neptune",
+        "aspect": "sextile",
+        "orb": 3.19
+      },
+      {
+        "planet1": "Uranus",
+        "planet2": "Pluto",
+        "aspect": "trine",
+        "orb": 6.73
+      },
+      {
+        "planet1": "Neptune",
+        "planet2": "Pluto",
+        "aspect": "sextile",
+        "orb": 3.54
       }
     ]
   }
